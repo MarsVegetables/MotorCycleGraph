@@ -36,4 +36,5 @@ python Motor.py ./models/6_rem_p0_0_quadrangulation_smooth.obj
 Below is a screenshot of the output. The left image is the initial quad-mesh, and the right image is the partitioned quad-mesh by MotorCycleGraph.
 
 ![An example of MotorCycleGraph output](Models/example1.PNG)
+![An example of MotorCycleGraph output](Models/example1_color.PNG)
 
