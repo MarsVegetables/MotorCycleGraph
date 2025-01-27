@@ -149,7 +149,8 @@ class MotorcycleGraph:
         for i, faces in enumerate(self.face_component_extraction.face_components):
             mesh.cell_data['colors'][list(faces)] = i
         # plotter.add_mesh(mesh, color="white", edge_color="black", show_edges=True)
-        plotter.add_mesh(mesh, scalars="colors", edge_color="black", show_edges=True, cmap='rainbow')
+        # plotter.add_mesh(mesh, scalars="colors", edge_color="black", show_edges=True, cmap='rainbow')
+        plotter.add_mesh(mesh, scalars="colors", edge_color="gray", show_edges=True, cmap='rainbow')
 
         # Create arrays for points and lines
         points = np.zeros((0, 3))
